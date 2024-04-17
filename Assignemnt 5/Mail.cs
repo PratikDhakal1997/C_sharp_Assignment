@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Post { 
 /// <summary>
 /// Abstract class representing a mail.

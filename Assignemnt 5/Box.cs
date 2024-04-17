@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿//Author:Pratik-60899291, Date: 2024-04-17
+
+using System.Collections.Generic;
+
 namespace Post
 {
     /// <summary>
@@ -11,7 +14,7 @@ namespace Post
         private int maxSize; // Maximum size of the mailbox
 
         /// <summary>
-        /// Constructor for creating a new mailbox object with a maximum size.
+        /// constructor for creating a new mailbox object with a maximum size.
         /// </summary>
         /// <param name="maxSize">Maximum size of the mailbox.</param>
         public Box(int maxSize)
@@ -23,7 +26,7 @@ namespace Post
         /// <summary>
         /// Method to add a mail to the mailbox.
         /// </summary>
-        /// <param name="mail">The mail to be added.</param>
+        /// <param name="mail"> The mail to be added.</param>
         public void addMail(Mail mail)
         {
             mails.Add(mail);
@@ -32,7 +35,7 @@ namespace Post
         /// <summary>
         /// Method to calculate the total stamp amount for all mails in the mailbox.
         /// </summary>
-        /// <returns>The total stamp amount required for all mails.</returns>
+        /// <returns>The total stamp amount for all mails.</returns>
         public double stamp()
         {
             double totalAmount = 0;
